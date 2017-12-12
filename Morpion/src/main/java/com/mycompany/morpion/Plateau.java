@@ -15,7 +15,19 @@ public class Plateau
     // ATTRIBUTS
     
     public static char[][] grille = new char [3][3];
-    private char content;
+    private static char content;
+    
+    // PROPRIETES
+    
+    public static char getContent(){
+        return content;
+    }
+    
+    public char setContent(char content){
+        this.content = content;
+        return content;
+    }
+    
     
     // CONSTRUCTEUR
     
@@ -27,6 +39,7 @@ public class Plateau
             }
             System.out.print(" | ");
         }
+        System.out.println();
     }
     
     

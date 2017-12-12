@@ -16,8 +16,9 @@ public class Partie
         
         Plateau grille = new Plateau();
         
-        System.out.print(grille);
+        System.out.println(grille);
     
+        System.out.println("content : " + Plateau.getContent());
 
         
     }
