@@ -11,6 +11,21 @@ package com.mycompany.morpion;
  */
 public class Partie 
 {
+    public void changePlayer()
+    {
+        
+    }
+    
+    public void getState()
+    {
+        
+    }
+    
+    public void isValid()
+    {
+        
+    }
+    
     public static void Main (String [] args)
     {
         
