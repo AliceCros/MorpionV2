@@ -15,8 +15,9 @@ public class Plateau
     // ATTRIBUTS
     
     public static char[][] grille = new char [3][3];
+    private char content;
     
-    // CONSTRUCTOR
+    // CONSTRUCTEUR
     
     public Plateau(){
         for (int i = 0; i < Plateau.grille.length; i++){
@@ -31,9 +32,8 @@ public class Plateau
     
     // METHODES
     
-    public void whatIsIn(int x, int y)
+    public char whatIsIn(int x, int y)
     {
-        
-      
+        return grille[x][y] = content;
     }
 }
