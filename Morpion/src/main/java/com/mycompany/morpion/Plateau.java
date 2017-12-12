@@ -10,6 +10,7 @@ package com.mycompany.morpion;
  * @author nicolashamelin
  */
 public class Plateau 
+
 {
     // ATTRIBUTS
     

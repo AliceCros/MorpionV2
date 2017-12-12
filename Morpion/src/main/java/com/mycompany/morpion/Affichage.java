@@ -11,6 +11,8 @@ package com.mycompany.morpion;
  */
 public class Affichage 
 {
+    String team1 = "Croix";
+    String team2 = "Rond";
     
     // CONSTRUCTEUR
     

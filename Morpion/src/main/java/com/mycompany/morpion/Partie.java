@@ -17,6 +17,24 @@ public class Partie
         Plateau grille = new Plateau();
         
         System.out.print(grille);
+    
+
         
     }
+    
+        public void changePlayer()
+        {
+
+        }
+
+        public void getState()
+        {
+
+        }
+
+        public void isValid()
+        {
+
+        }
+        
 }
