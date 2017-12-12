@@ -9,6 +9,21 @@ package com.mycompany.morpion;
  *
  * @author nicolashamelin
  */
-public class Affichage {
+public class Affichage 
+{
     
+    public void chooseTeam()
+    {
+        
+    }
+    
+    public void show()
+    {
+        
+    }
+    
+    public void playIn()
+    {
+        
+    }
 }

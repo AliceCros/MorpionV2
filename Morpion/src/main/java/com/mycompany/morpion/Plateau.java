@@ -9,6 +9,11 @@ package com.mycompany.morpion;
  *
  * @author nicolashamelin
  */
-public class Plateau {
+public class Plateau 
+{
     
+    public void whatIsIn()
+    {
+        
+    }
 }

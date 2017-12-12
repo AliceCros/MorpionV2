@@ -9,6 +9,10 @@ package com.mycompany.morpion;
  *
  * @author nicolashamelin
  */
-public class Partie {
-    
+public class Partie 
+{
+    public static void Main (String [] args)
+    {
+        
+    }
 }
