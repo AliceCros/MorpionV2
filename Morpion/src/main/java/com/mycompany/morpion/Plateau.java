@@ -45,7 +45,7 @@ public class Plateau
     
     // METHODES
     
-    public char whatIsIn(int x, int y)
+    public static char whatIsIn(int x, int y)
     {
         return grille[x][y] = content;
     }
