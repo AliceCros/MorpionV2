@@ -11,9 +11,28 @@ package com.mycompany.morpion;
  */
 public class Plateau 
 {
+    // ATTRIBUTS
     
-    public void whatIsIn()
+    public static char[][] grille = new char [3][3];
+    
+    // CONSTRUCTOR
+    
+    public Plateau(){
+        for (int i = 0; i < Plateau.grille.length; i++){
+            System.out.println();
+            for (int j = 0; j < Plateau.grille.length; j++){
+                System.out.print(" | ");
+            }
+            System.out.print(" | ");
+        }
+    }
+    
+    
+    // METHODES
+    
+    public void whatIsIn(int x, int y)
     {
         
+      
     }
 }

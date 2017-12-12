@@ -12,6 +12,14 @@ package com.mycompany.morpion;
 public class Affichage 
 {
     
+    // CONSTRUCTEUR
+    
+    public Affichage(){
+        
+    }
+    
+    // METHODES
+    
     public void chooseTeam()
     {
         

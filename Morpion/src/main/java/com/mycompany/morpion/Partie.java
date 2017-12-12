@@ -9,10 +9,14 @@ package com.mycompany.morpion;
  *
  * @author nicolashamelin
  */
-public class Partie 
+public class Partie
 {
-    public static void Main (String [] args)
+    public static void main (String[] args)
     {
+        
+        Plateau grille = new Plateau();
+        
+        System.out.print(grille);
         
     }
 }
